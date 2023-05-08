@@ -1,22 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HomeWork6_class_CoolRandom_
+﻿namespace HomeWork6_class_CoolRandom_
 {
     public class CoolRandom
     {
-        private Random random;
-        private int min;
-        private int max;
+        private readonly Random random;
+        private readonly int min;
+        private readonly int max;
         private List<int> values = new();
 
         public CoolRandom(int min, int max)
         {
 
-            this.random = new Random();
+            random = new Random();
             this.min = min;
             this.max = max;
        

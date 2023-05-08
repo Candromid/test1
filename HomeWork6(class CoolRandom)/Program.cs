@@ -9,10 +9,10 @@
 
             for (int i = 0; i < 30; i++)
             {
-                if (i % 10 == 0)
+                if (i % 10 == 0)                        // Визуальное разделение чисел
                     Console.WriteLine(" - ");
-                int randomNumber = coolRandom.Next();  //переменная для хранения значения метода coolRandom
-                Console.WriteLine(randomNumber);  //визуалка
+                int randomNumber = coolRandom.Next();   //переменная для хранения значения метода coolRandom
+                Console.WriteLine(randomNumber);         //визуалка
             }
 
             

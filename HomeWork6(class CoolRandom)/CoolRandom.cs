@@ -18,9 +18,9 @@
 
         public int Next()
         {
-            if (values.Count == 0)
+            if (values.Count == 0)   // проверка на пустой список
             {
-                values = Enumerable.Range(min, max - min +1 ).ToList();
+                values = Enumerable.Range(min, max - min +1 ).ToList();  
             }
 
             int index = random.Next(0, values.Count);

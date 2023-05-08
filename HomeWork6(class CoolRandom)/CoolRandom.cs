@@ -10,7 +10,7 @@
         public CoolRandom(int min, int max)
         {
 
-            random = new Random();
+            random = new Random(); // переменная получающая рандомное число
             this.min = min;
             this.max = max;
        

@@ -6,6 +6,9 @@
         private readonly int min;
         private readonly int max;
         private List<int> values = new();
+        private string t;
+        
+        public string Name { get; set; }
 
         public CoolRandom(int min, int max)
         {

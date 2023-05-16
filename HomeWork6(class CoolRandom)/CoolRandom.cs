@@ -6,6 +6,7 @@
         private readonly int min;
         private readonly int max;
         private List<int> values = new();
+        private readonly int valuess;
         private string t;
         
         public string Name { get; set; }
